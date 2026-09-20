@@ -1,0 +1,13 @@
+link acouts to this page
+add secton for youtube playlists
+create a section for firstbook and winget grporgrams that updatesistem
+turn bootup onto a page on site
+make welcom page more welcoming. make the boxes aroun text
+move batches to a progects example or move projects into on repository and call it data base??? think on it
+update minecraft mods section mod packs, launches and retreave the data pack from the crafty controler
+add about me to contents.
+clean up css file. remove nonb used code and also fix the headder css on right
+look at getting more images on the site.
+update location of sections
+forst boot on to winds list
+
