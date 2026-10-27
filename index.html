@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Pages Test</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #101827;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 40px;
+      margin: 20px;
+      border-radius: 20px;
+      max-width: 500px;
+      box-shadow: 0 10px 40px #0005;
+    }
+
+    h1 {
+      color: #4ade80;
+    }
+
+    button {
+      padding: 12px 22px;
+      border: none;
+      border-radius: 8px;
+      background: #4ade80;
+      color: #101827;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    #result {
+      margin-top: 20px;
+      color: #4ade80;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>GitHub Pages Test</h1>
+
+    <p>If you can see this page, your website is being hosted!</p>
+
+    <p id="status">Checking JavaScript...</p>
+
+    <button onclick="testButton()">Test Button</button>
+
+    <p id="result"></p>
+  </div>
+
+  <script>
+    document.getElementById("status").textContent =
+      "✅ JavaScript is working!";
+
+    function testButton() {
+      document.getElementById("result").textContent =
+        "🎉 HTML, CSS and JavaScript all work!";
+    }
+  </script>
+</body>
+</html>
